@@ -1,0 +1,19 @@
+# End your baseURL with a `/` trailing slash, e.g. `https://example.com/`.
+baseURL = "/"
+
+title = "Gabut"
+languageCode = "en-us"
+theme = "code"
+
+[params]
+  homeTitle = "KEGABUTAN AFTER NGODING"
+homeDescription = """
+Hanya sedikit berbagi dari beberapa ilmu yang sudah kami pelajari,dan kami buat ketika waktu senggang/gabut.
+"""
+  footer = "<a href=\"https://roynaldi3301.github.io\">❤ RoiDev</a>"
+  feedbackLink = "mailto:prasbhara0604@gmail.com"
+  [params.categoryColors]
+    basis-data = "#DB1514"
+    matematika-diskrit = "#E37400"
+    manajemen = "#5B6118"
+    dasar-akuntansi = "#5F6368"

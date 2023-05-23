@@ -1,0 +1,23 @@
+.algoritma-bg {
+  background-color: #DB1514 !important; }
+
+google-codelab-index-cards .card.algoritma-bottom {
+  border-bottom-color: #DB1514; }
+
+.dasar-akuntansi-bg {
+  background-color: #5F6368 !important; }
+
+google-codelab-index-cards .card.dasar-akuntansi-bottom {
+  border-bottom-color: #5F6368; }
+
+.manajemen-bg {
+  background-color: #5B6118 !important; }
+
+google-codelab-index-cards .card.manajemen-bottom {
+  border-bottom-color: #5B6118; }
+
+.matematika-diskrit-bg {
+  background-color: #E37400 !important; }
+
+google-codelab-index-cards .card.matematika-diskrit-bottom {
+  border-bottom-color: #E37400; }

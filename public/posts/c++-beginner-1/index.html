@@ -1,0 +1,294 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0, initial-scale=1.0, user-scalable=yes">
+  <title>C&#43;&#43; | Konsep Dasar.</title>
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Source+Code+Pro:400|Roboto:400,300,400italic,500,700|Roboto+Mono">
+  <link rel="stylesheet" href="//fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="/google_codelab_step_scss_bin.css">
+  <link rel="stylesheet" href="/google_codelab_survey_scss_bin.css">
+  <link rel="stylesheet" href="/google_codelab_scss_bin.css">
+  <style>
+    body {
+      transition: opacity ease-in 0.2s;
+    }
+    table th{
+      border :black 1px solid;
+      text-align: center !important;
+      width: 10%;
+      height: 10% !important;
+    }
+    table td{
+      border :black 1px solid;
+      text-align: center !important;
+    }
+
+    body[unresolved] {
+      opacity: 0;
+      display: block;
+      overflow: hidden;
+      position: relative;
+    }
+  </style>
+</head>
+
+<body unresolved>
+  <google-codelab title="C&#43;&#43; | Konsep Dasar." id="c&#43;&#43;-konsep-dasar." environment="web" feedback-link="mailto:prasbhara0604@gmail.com" home-url="/">
+
+<google-codelab-step label="Pendahuluan &amp; Daftar Isi" duration="3:00">
+<p>Semua materi yang saya sampaikan adalah hasil terjemahan dari kursus online terkemuka <a href="https://www.sololearn.com/">SoloLearn</a>,silahkan bagi yang ingin memperdalam pemahaman dan mengasah skill koding saya sarankan untuk mengunjunginya</p>
+<p>saya juga minta maaf sebelumnya jikalau dalam penerjemahan masih kaku dalam hal bahasa,jika ada keluhan/tanya seputar koding C++ bisa menghubungi saya di <a href="https://wa.me/6285600640009">RoiDev</a></p>
+<blockquote>
+<h3 id="daftar-isi">Daftar Isi</h3>
+<ul>
+<li>Memulai dengan C++</li>
+<li>Pernyataan/Statement</li>
+<li>Struktur Program</li>
+<li>Variabel</li>
+<li>Tipe Data</li>
+<li>Operasi Matematika/Aritmatika</li>
+<li>Lebih Lanjut Tentang Variabel</li>
+<li>Komentar</li>
+</ul>
+</blockquote>
+
+</google-codelab-step>
+<google-codelab-step label="Memulai dengan C&#43;&#43;" duration="3:00">
+<h2 id="selamat-datang-di-c">Selamat datang di C++</h2>
+<p>C++ adalah salah satu bahasa pemrograman yang paling populer,yang diciptakan oleh Bjarne Stroustrup di Bell Laboratories pada tahun 1979.</p>
+<p>bahasa Ini digunakan untuk membuat game, sistem operasi, browser, dan banyak lagi!</p>
+<p>Keuntungan terbesar C++ adalah skalabilitas dan kontrolnya atas cara menggunakan sumber daya.</p>
+<hr>
+<h2 id="koding">Koding</h2>
+<p>Manusia menggunakan program komputer untuk berkomunikasi dengan mesin. Tanpa program komputer, kita tidak akan memiliki ponsel pintar, situs web, atau bahkan penjelajahan di luar angkasa.</p>
+<p>Mempelajari beberapa pengkodean dapat membantu Kita berinovasi dan menciptakan solusi berbeda untuk masalah, memberi Kita keunggulan kompetitif di dunia yang digerakkan oleh teknologi ini.</p>
+<hr>
+<h2 id="output">Output</h2>
+<p>Sebagian besar program komputer dirancang untuk menghasilkan <strong>output</strong> . Berikut beberapa contohnya:</p>
+<ul>
+<li>
+<p>Notifikasi &ldquo;Anda mendapat pesan baru&rdquo;.</p>
+</li>
+<li>
+<p>&ldquo;Game Over&rdquo; ditampilkan di layar saat bermain video game</p>
+</li>
+<li>
+<p>Saldo akun Anda saat memeriksa aplikasi perbankan online Anda.</p>
+</li>
+</ul>
+<p><strong>Output</strong> paling sederhana yaitu menampilkan pesan di layar.</p>
+<p>Pembuat kode menggunakan <strong>output</strong> sepanjang waktu untuk memeriksa apakah komputer mengikuti instruksi yang diberikan dan memperbaiki masalah dengan kode.</p>
+<p>Baris kode berikut menampilkan <code>&quot;Welcome to C++&quot;</code> di layar sebagai output:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Welcome to C++&#34;</span>;
+</span></span></code></pre></div><p>setiap perintah cout harus diikuti dengan tanda  <code>&lt;&lt;</code>.</p>
+
+</google-codelab-step>
+<google-codelab-step label="Pernyataan/Statement" duration="3:00">
+<h2 id="statement">Statement</h2>
+<p>Sebaris kode disebut pernyataan . Sebuah pernyataan melakukan tugas tertentu.</p>
+<p>Perintah output dibawah ini adalah contoh pernyataan:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Coding adalah Seni&#34;</span>;
+</span></span></code></pre></div><hr>
+<h2 id="titik-koma">Titik Koma(;)</h2>
+<p>Setiap pernyataan dalam C++ harus diakhiri dengan titik koma ; .</p>
+<p>Kode di bawah ini mengandung kesalahan,dan akan menyebabkan error jika dijalankan</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Coding is your new superpower&#34;</span>
+</span></span></code></pre></div><hr>
+<h2 id="mencetak-output-sebuah-teks">Mencetak Output sebuah Teks</h2>
+<p>Saat mencetak keluaran teks, Kita harus mengapit teks dengan tanda kutip ganda .</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;Level completed!&#34;</span>;
+</span></span></code></pre></div><hr>
+<h2 id="teks-vs-angka">Teks vs Angka</h2>
+<p>Komputer memperlakukan teks dan angka secara berbeda. Kita tidak perlu tanda kutip saat mengeluarkan angka.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#ae81ff">42</span>;
+</span></span></code></pre></div><hr>
+<h2 id="case-sensitive">Case-Sensitive</h2>
+<p>bahasa c++ merupakan bahasa yang peka terhadap huruf kecil dan besar,jadi berhati hati ketika menulis syntax dan variabel.
+Contoh :
+Variabel nama dan Nama adalah sesuatu yang berbeda</p>
+
+</google-codelab-step>
+<google-codelab-step label="Struktur Program" duration="3:00">
+<h2 id="program-c">Program C++</h2>
+<p>Mari kita lihat kode keseluruhan program dan pelajari tentang semua pernyataan kode dan apa yang mereka lakukan.</p>
+<p>Berikut adalah kode untuk menampilkan teks:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>  cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;C++ is awesome&#34;</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Baris pertama kode menambahkan <code>&lt;iostream&gt;</code> header ke program:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span></code></pre></div><p>Pernyataan kode berikutnya adalah:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+</span></span></code></pre></div><p>Ini memberitahu program untuk menggunakan std namespace .</p>
+<p>Kita perlu melakukan ini karena perintah cout adalah bagian dari std namespace.</p>
+<blockquote>
+<p>namespace digunakan untuk mengatur kode ke dalam grup logis dan memberi mereka nama.</p>
+<p>Jadi, stdnamespace adalah bagian dari <code>&lt;iostream&gt;</code> header, yang berisi perintah cout.</p>
+</blockquote>
+<p>Mari kita lihat  keseluruhan program :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#75715e">#include</span> <span style="color:#75715e">&lt;iostream&gt;</span><span style="color:#75715e">
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">using</span> <span style="color:#66d9ef">namespace</span> std;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>  cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;C++ is awesome&#34;</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Setelah header, Kita melihat kode berikut:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() { 
+</span></span></code></pre></div><p>Setiap program C++ memiliki titik masuk, atau titik awal, yang merupakan fungsi yang disebut <code>main</code>.</p>
+<blockquote>
+</blockquote>
+<p>Kita akan membahas setiap kata kunci dari definisi tersebut di pelajaran selanjutnya, saat mempelajari tentang fungsi. Untuk saat ini, ingatlah bahwa fungsi <code>main</code> harus dideklarasikan identik dengan kode di atas.</p>
+<p>Tanda kurung kurawal { } menunjukkan awal dan akhir fungsi, yang juga bisa disebut badan fungsi . Kode di dalam tanda kurung menunjukkan fungsi apa yang dilakukan saat dijalankan.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>  cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;C++ is awesome&#34;</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Saat kita menjalankan kode, perintah <code>cout</code> akan dieksekusi.</p>
+<p>Fungsi main dapat berisi beberapa baris kode.</p>
+<p>Misalnya, mari kita coba menampilkan dua nilai teks yang berbeda:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> <span style="color:#a6e22e">main</span>() {
+</span></span><span style="display:flex;"><span>  cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;This is the first line&#34;</span>;
+</span></span><span style="display:flex;"><span>  cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;This is the second line&#34;</span>;
+</span></span><span style="display:flex;"><span>}
+</span></span></code></pre></div><p>Untuk menambahkan baris baru, Anda dapat menggunakan perintah endl , seperti ini:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;This is the first line&#34;</span> <span style="color:#f92672">&lt;&lt;</span> endl;
+</span></span><span style="display:flex;"><span>cout <span style="color:#f92672">&lt;&lt;</span> <span style="color:#e6db74">&#34;This is the second line&#34;</span>;
+</span></span></code></pre></div><blockquote>
+<p>Kerja bagus! Sekarang Kita tahu cara membuat program C++ yang valid.</p>
+<p>Ingat poin-poin penting berikut ini:</p>
+<ul>
+<li>Pernyataan  #include digunakan untuk menambahkan file header ke program.</li>
+<li>Perintah  using digunakan untuk memberi tahu program namespace mana yang akan digunakan.</li>
+<li>Untuk menggunakan perintah cout, Kita perlu menyertakan <code>&lt;iostream&gt;</code>  dan menggunakan stdnamespace.</li>
+<li>Titik awal program C++ adalah fungsi yang disebut main, yang menyertakan kode yang ingin Kita jalankan.</li>
+<li>Perintah <code>endl</code> digunakan untuk menambahkan baris baru ke output.</li>
+</ul>
+</blockquote>
+
+</google-codelab-step>
+<google-codelab-step label="Variabel" duration="3:00">
+<p>Setiap program bekerja dengan nilai/value.</p>
+<p>Variabel dapat menyimpan nilai teks, angka, desimal, dll.</p>
+<p>Variabel memungkinkan Kita menyimpan nilai/value dengan menugaskannya ke sebuah <code>nama</code> . Nama ini nantinya dapat digunakan untuk merujuk ke nilai dalam program.</p>
+<blockquote>
+<p>Misalnya, dalam pengembangan game, Kita akan menggunakan variabel untuk menyimpan berapa banyak poin yang dicetak pemain.</p>
+</blockquote>
+<p>Setiap variabel memiliki tipe data , yang menentukan jenis nilai yang dimilikinya.</p>
+<p>Kita sudah terbiasa dengan nilai teks - yang dibuat menggunakan tanda kutip,seperti di materi sebelumnya :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>    <span style="color:#e6db74">&#34;ini adalah sebuah teks&#34;</span>
+</span></span></code></pre></div><hr>
+<p>Mari buat variabel bertipe string :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>string message;
+</span></span></code></pre></div><p>Ini akan menciptakan variabel baru yang disebut  <code>message</code>  yang bertipe data string .</p>
+<p>Sekarang, variabel <code>message</code> yang kita buat dapat menyimpan nilai string.</p>
+<blockquote>
+<p>Dalam istilah pemrograman, proses pembuatan variabel disebut deklarasi.</p>
+</blockquote>
+<hr>
+<p>Setelah mendeklarasikan variabel kita, kita dapat memberinya nilai menggunakan operator penugasan(=) :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>string message;
+</span></span><span style="display:flex;"><span>message <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Selamat Datang&#34;</span>;
+</span></span></code></pre></div><p>Sekarang, <code>message</code> mempunyai nilai &ldquo;Selamat Datang&rdquo;.</p>
+<blockquote>
+<p>Perhatikan, bahwa nilai string harus dalam tanda kutip.</p>
+</blockquote>
+<hr>
+<p>Sekarang, setelah mendeklarasikan dan menetapkan nilai, kita dapat menampilkan nilai variabel kita:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>string message;
+</span></span><span style="display:flex;"><span>message <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Selamat Datang&#34;</span>;
+</span></span><span style="display:flex;"><span>cout <span style="color:#f92672">&lt;&lt;</span> message;
+</span></span></code></pre></div><hr>
+<p>Kita dapat menggabungkan deklarasi dan penugasan menjadi satu pernyataan, seperti ini:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>string message <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Selamat Datang&#34;</span>;
+</span></span></code></pre></div><blockquote>
+<p>Ini berguna ketika kita sudah mengetahui nilai variabel kita dan membuat kode lebih pendek dan lebih mudah dibaca.</p>
+</blockquote>
+<hr>
+<p>Variabel dapat mengubah nilainya selama program beberapa kali.</p>
+<p>Misalnya, pesan dapat berubah berdasarkan bahasa:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span>string message <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Selamat Datang&#34;</span>;
+</span></span><span style="display:flex;"><span>message <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Welcome&#34;</span>;
+</span></span></code></pre></div><hr>
+<blockquote>
+<p>Luar biasa! Berikut adalah beberapa kesimpulan yang bisa diambil dari pembelajaran kali ini:</p>
+<ul>
+<li>Variabel memiliki nama dan jenis nilai yang dimilikinya.</li>
+<li>Untuk mendeklarasikan variabel gunakan tipe diikuti dengan nama variabel.</li>
+<li>Anda dapat menetapkan nilai ke variabel yang dideklarasikan menggunakan operator =.</li>
+<li>Variabel dapat mengubah nilainya selama program, dengan menetapkan nilai baru.</li>
+</ul>
+</blockquote>
+<p>Kita akan mempelajari lebih banyak jenis variabel di pelajaran selanjutnya!</p>
+
+</google-codelab-step>
+<google-codelab-step label="Tipe Data" duration="3:00">
+<p>C++ mendukung berbagai jenis variabel, berdasarkan nilainya.</p>
+<h2 id="integerint">Integer/Int</h2>
+<p>Jenis <code>int</code> digunakan untuk menyimpan integer (disebut integer dalam pemrograman):</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> points <span style="color:#f92672">=</span> <span style="color:#ae81ff">128</span>;
+</span></span></code></pre></div><h2 id="double">Double</h2>
+<p>Untuk menyimpan desimal (atau angka floating point), C++ menyediakan tipe data float dan double .</p>
+<p>Misalnya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">double</span> temp <span style="color:#f92672">=</span> <span style="color:#ae81ff">84.2</span>;
+</span></span></code></pre></div><h2 id="float">Float</h2>
+<p>Jenis <code>float</code> juga digunakan untuk menyimpan desimal.</p>
+<p>Untuk menentukan bahwa nilainya adalah sebuah <code>float</code>, kita perlu menggunakan huruf f setelahnya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">float</span> length <span style="color:#f92672">=</span> <span style="color:#ae81ff">5.31f</span>;
+</span></span></code></pre></div><p>Ini memberitahu C++ untuk menggunakan nilai sebagai float, bukan double.</p>
+<h2 id="float-vs-double">Float vs Double</h2>
+<p>Secara default, nilai desimal bertipe double.</p>
+<p>float menggunakan lebih sedikit penyimpanan dalam memori, tetapi tidak setepat tipenya double.</p>
+<p>Ini berarti bahwa perhitungan yang menggunakan float lebih cepat daripada yang menggunakan double, namun hasilnya kurang  akurat dalam hal angka desimal.</p>
+<h2 id="char">Char</h2>
+<p>Jenis char digunakan untuk menyimpan satu karakter.</p>
+<p>Ini mirip dengan mendeklarasikan string, tetapi menggunakan tanda kutip tunggal(&rsquo;) untuk nilainya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">char</span> x <span style="color:#f92672">=</span> <span style="color:#e6db74">&#39;H&#39;</span>;
+</span></span></code></pre></div><h2 id="boolean">Boolean</h2>
+<p>Jenis bool hanya dapat menyimpan 2 nilai: antara <code>true</code> atau <code>false</code>.</p>
+<p>biasanya digunakan saat bekerja dengan pengkondisian.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">bool</span> online <span style="color:#f92672">=</span> false;
+</span></span></code></pre></div><p>Variabel online dapat menunjukkan apakah pengguna sedang online atau tidak.</p>
+<blockquote>
+<p>Saat Kita menjalankan kode, Kita akan melihat bahwa hasilnya adalah  0 , bukan  false. Ini karena nilai boolean  true sesuai dengan  1 , sedangkan nilainya  false sesuai dengan  0 .</p>
+</blockquote>
+<p>Kerja bagus! Berikut adalah beberapa kesimpulan utama tentang tipe data:</p>
+<blockquote>
+<ul>
+<li><code>int</code> digunakan untuk menampung bilangan bulat (integer)</li>
+<li><code>double</code> menyimpan desimal.</li>
+<li><code>float</code> mirip dengan double, tetapi kurang presisi dan membutuhkan lebih sedikit memori. Kita perlu mengakhiri nilai dengan huruf &lsquo;f&rsquo; untuk membuat float.</li>
+<li><code>char</code> memegang satu karakter.</li>
+<li><code>boolean</code> dapat memiliki salah satu dari nilai berikut: true atau false .</li>
+</ul>
+</blockquote>
+<p>Kita akan belajar bagaimana menggunakan variabel dan membuat perhitungan pada pelajaran selanjutnya.</p>
+
+</google-codelab-step>
+<google-codelab-step label="Operasi  Aritmatika" duration="3:00">
+
+</google-codelab-step>
+<google-codelab-step label="" duration="3:00">
+
+</google-codelab-step>
+<google-codelab-step label="" duration="3:00">
+
+</google-codelab-step>
+<google-codelab-step label="" duration="3:00">
+
+</google-codelab-step>
+
+
+  </google-codelab>
+  <script src="/native-shim.js"></script>
+  <script src="/custom-elements.min.js"></script>
+  <script src="/prettify.js"></script>
+  <script src="/google_codelab_step_bin.js"></script>
+  <script src="/google_codelab_survey_bin.js"></script>
+  <script src="/google_codelab_bin.js"></script>
+</body>
+
+</html>

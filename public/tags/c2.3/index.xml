@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>c2.3 on Gabut</title>
+    <link>/tags/c2.3/</link>
+    <description>Recent content in c2.3 on Gabut</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/c2.3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C&#43;&#43; | Konsep Dasar.</title>
+      <link>/posts/c&#43;&#43;-beginner-1/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/posts/c&#43;&#43;-beginner-1/</guid>
+      <description>Semua materi yang saya sampaikan adalah hasil terjemahan dari kursus online terkemuka SoloLearn,silahkan bagi yang ingin memperdalam pemahaman dan mengasah skill koding saya sarankan untuk mengunjunginya
+saya juga minta maaf sebelumnya jikalau dalam penerjemahan masih kaku dalam hal bahasa,jika ada keluhan/tanya seputar koding C++ bisa menghubungi saya di RoiDev
+Daftar Isi Memulai dengan C++ Pernyataan/Statement Struktur Program Variabel Tipe Data Operasi Matematika/Aritmatika Lebih Lanjut Tentang Variabel Komentar Selamat datang di C++ C++ adalah salah satu bahasa pemrograman yang paling populer,yang diciptakan oleh Bjarne Stroustrup di Bell Laboratories pada tahun 1979.</description>
+    </item>
+    
+  </channel>
+</rss>

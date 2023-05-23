@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Gabut</title>
+    <link>/tags/</link>
+    <description>Recent content in Tags on Gabut</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sun, 21 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>c2.3</title>
+      <link>/tags/c2.3/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/c2.3/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>cpp</title>
+      <link>/tags/cpp/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/cpp/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>koding</title>
+      <link>/tags/koding/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/koding/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>materi</title>
+      <link>/tags/materi/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/materi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rahmam-manto</title>
+      <link>/tags/rahmam-manto/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/rahmam-manto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>strudat</title>
+      <link>/tags/strudat/</link>
+      <pubDate>Sun, 21 May 2023 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/strudat/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
