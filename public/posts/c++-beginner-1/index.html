@@ -269,9 +269,124 @@ Variabel nama dan Nama adalah sesuatu yang berbeda</p>
 
 </google-codelab-step>
 <google-codelab-step label="Operasi  Aritmatika" duration="3:00">
+<h2 id="melakukan-operasi-perhitungan-aritmatika">Melakukan Operasi Perhitungan Aritmatika</h2>
+<p>C++ mendukung sejumlah operator aritmatika yang dapat digunakan untuk melakukan perhitungan.</p>
+<p>Mari kita deklarasikan dua variabel dan tampilkan jumlahnya:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> a <span style="color:#f92672">=</span> <span style="color:#ae81ff">8</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> b <span style="color:#f92672">=</span> <span style="color:#ae81ff">24</span>;
+</span></span><span style="display:flex;"><span>cout <span style="color:#f92672">&lt;&lt;</span> a<span style="color:#f92672">+</span>b;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// Output : 32
+</span></span></span></code></pre></div><p>Kode C++ tersebut mendeklarasikan dua variabel, a dengan nilai 8 dan b dengan nilai 24. Kemudian, hasil penjumlahan a dan b yaitu 32 yang dicetak ke console menggunakan cout.</p>
+<h2 id="assignment-variabel">Assignment Variabel</h2>
+<p>Hasil perhitungan dapat ditugaskan ke variabel lain.</p>
+<p>Sebagai contoh, mari gunakan pengurangan untuk mendemonstrasikan:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> price <span style="color:#f92672">=</span> <span style="color:#ae81ff">20</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> discount <span style="color:#f92672">=</span> <span style="color:#ae81ff">5</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> total <span style="color:#f92672">=</span> price <span style="color:#f92672">-</span> discount;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//Output : 15
+</span></span></span></code></pre></div><p>Kode C++ tersebut mendeklarasikan tiga variabel: price dengan nilai 20, discount dengan nilai 5, dan total yang menghitung selisih antara price dan discount. Dalam hal ini, total akan menjadi 15, karena dilakukan pengurangan antara price dan discount.</p>
+<h2 id="macam--macam-operator-yang-sering-digunakan">Macam -macam Operator yang sering digunakan</h2>
+<h3 id="penjumlahan">Penjumlahan</h3>
+<p>Penjumlahan dilakukan dengan menggunakan operator +.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> a <span style="color:#f92672">=</span> <span style="color:#ae81ff">27</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> b <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> result <span style="color:#f92672">=</span> a <span style="color:#f92672">+</span> b;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// output : 30
+</span></span></span></code></pre></div><h3 id="pengurangan">Pengurangan</h3>
+<p>PEngurangan dilakukan dengan menggunakan operator -.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> a <span style="color:#f92672">=</span> <span style="color:#ae81ff">27</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> b <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> result <span style="color:#f92672">=</span> a <span style="color:#f92672">-</span> b;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// output : 24
+</span></span></span></code></pre></div><h3 id="perkalian">Perkalian</h3>
+<p>Perkalian dilakukan dengan menggunakan operator *.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> a <span style="color:#f92672">=</span> <span style="color:#ae81ff">27</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> b <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> result <span style="color:#f92672">=</span> a <span style="color:#f92672">*</span> b;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// output : 81
+</span></span></span></code></pre></div><h3 id="pembagian">Pembagian</h3>
+<p>Pembagian dilakukan dengan menggunakan operator /.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> a <span style="color:#f92672">=</span> <span style="color:#ae81ff">27</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> b <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> result <span style="color:#f92672">=</span> a <span style="color:#f92672">/</span> b;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// output : 9
+</span></span></span></code></pre></div><h3 id="modulus">Modulus</h3>
+<p>Modulus adalah operator untuk mengetahui sisa hasil bagi suatu bilangan,dalam C++ dapat dilakukan dengan menggunakan operator %.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">int</span> a <span style="color:#f92672">=</span> <span style="color:#ae81ff">27</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> b <span style="color:#f92672">=</span> <span style="color:#ae81ff">3</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> result <span style="color:#f92672">=</span> a <span style="color:#f92672">%</span> b;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">// output : 0 //karena 27 habis dibagi 3
+</span></span></span></code></pre></div><blockquote>
+<p>Mengerjakan matematika itu mudah dan menyenangkan! Berikut adalah beberapa takeaways utama pada bagian ini :</p>
+<p>Kita dapat menggunakan operator matematika dasar untuk melakukan perhitungan dengan nilai dan variabel.</p>
+<ul>
+<li><code>+</code> adalah penjumlahan</li>
+<li><code>-</code> adalah pengurangan</li>
+<li><code>*</code> adalah perkalian</li>
+<li><code>/</code> adalah pembagian</li>
+<li><code>%</code> menemukan sisa pembagian.</li>
+<li>Membagi bilangan bulat menghasilkan bilangan bulat.</li>
+</ul>
+</blockquote>
 
 </google-codelab-step>
-<google-codelab-step label="" duration="3:00">
+<google-codelab-step label="Variabel (Lanjutan)" duration="3:00">
+<h2 id="gaya-penulisan-variabel">Gaya Penulisan Variabel</h2>
+<h3 id="1-gaya-penulisan-standar">1. Gaya penulisan standar</h3>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#75715e">//tanpa pemberian nilai langsung
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> a;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> b;
+</span></span><span style="display:flex;"><span>string c;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//dengan pemberian nilai langsung 
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> x<span style="color:#f92672">=</span><span style="color:#ae81ff">8</span>; 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">int</span> y<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>;
+</span></span><span style="display:flex;"><span>string z<span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Hallo, &#34;</span>;
+</span></span></code></pre></div><h3 id="2-dipisahkan-koma">2. Dipisahkan Koma</h3>
+<p>Kita dapat mendeklarasikan variabel dengan tipe yang sama dalam satu baris, dipisahkan dengan koma .</p>
+<p>Misalnya :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#75715e">//tanpa pemberian nilai
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> a,b,c;
+</span></span><span style="display:flex;"><span>
+</span></span><span style="display:flex;"><span><span style="color:#75715e">//dengan pemberian nilai
+</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> x<span style="color:#f92672">=</span><span style="color:#ae81ff">8</span>, y<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>,z<span style="color:#f92672">=</span><span style="color:#ae81ff">2</span>;
+</span></span></code></pre></div><p>Ini membuat kode lebih pendek dan juga lebih mudah dibaca.</p>
+<h3 id="3-auto">3. Auto</h3>
+<p>Kata kunci praktis lainnya adalah auto.</p>
+<p>Kata kunci auto memungkinkan Kita untuk mengatur jenis variabel berdasarkan nilainya.
+contoh :</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-c++" data-lang="c++"><span style="display:flex;"><span><span style="color:#66d9ef">auto</span> x <span style="color:#f92672">=</span> <span style="color:#ae81ff">4</span>;
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">auto</span> y <span style="color:#f92672">=</span> <span style="color:#ae81ff">3.37</span>; 
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">auto</span> z <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;hello&#34;</span>; 
+</span></span></code></pre></div><blockquote>
+<p>Saat menggunakan kata kunci auto, variabel harus diberi nilai selama deklarasi, jika tidak, maka program akan terjadi kesalahan.</p>
+</blockquote>
+<h2 id="penamaan-variabel">Penamaan Variabel</h2>
+<p>Berikut adalah beberapa aturan penamaan variabel:</p>
+<ul>
+<li>Program C++ bersifat case-sensitive yaitu membedakan huruf besar dan kecil</li>
+<li>Semua nama variabel harus dimulai dengan huruf abjad atau garis bawah ( <code>_</code> ).</li>
+<li>Setelah huruf awal, nama variabel dapat berisi huruf tambahan, serta angka.</li>
+<li>Spasi kosong atau karakter khusus tidak diperbolehkan dalam nama variabel.</li>
+</ul>
+<blockquote>
+<p>Ada dua konvensi penamaan yang populer:</p>
+<ul>
+<li>
+<p>Pascal case : Huruf pertama dalam identifier dan huruf pertama dari setiap kata gabungan berikutnya dikapitalisasi. Misalnya:BackColor</p>
+</li>
+<li>
+<p>Huruf unta : Huruf pertama dari pengidentifikasi adalah huruf kecil dan huruf pertama dari setiap kata gabungan berikutnya adalah huruf kapital. Misalnya:backColor</p>
+</li>
+</ul>
+</blockquote>
 
 </google-codelab-step>
 <google-codelab-step label="" duration="3:00">

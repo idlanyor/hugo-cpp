@@ -382,10 +382,175 @@ Kita akan belajar bagaimana menggunakan variabel dan membuat perhitungan pada pe
 
 {{< step label="Operasi  Aritmatika" duration="3:00" >}}
 
+## Melakukan Operasi Perhitungan Aritmatika
+
+C++ mendukung sejumlah operator aritmatika yang dapat digunakan untuk melakukan perhitungan.
+
+Mari kita deklarasikan dua variabel dan tampilkan jumlahnya:
+
+```c++
+int a = 8;
+int b = 24;
+cout << a+b;
+
+// Output : 32
+```
+
+Kode C++ tersebut mendeklarasikan dua variabel, a dengan nilai 8 dan b dengan nilai 24. Kemudian, hasil penjumlahan a dan b yaitu 32 yang dicetak ke console menggunakan cout.
+
+## Assignment Variabel
+
+Hasil perhitungan dapat ditugaskan ke variabel lain.
+
+Sebagai contoh, mari gunakan pengurangan untuk mendemonstrasikan:
+
+```c++
+int price = 20;
+int discount = 5;
+int total = price - discount;
+
+//Output : 15
+```
+
+Kode C++ tersebut mendeklarasikan tiga variabel: price dengan nilai 20, discount dengan nilai 5, dan total yang menghitung selisih antara price dan discount. Dalam hal ini, total akan menjadi 15, karena dilakukan pengurangan antara price dan discount.
+
+## Macam -macam Operator yang sering digunakan
+
+### Penjumlahan
+
+Penjumlahan dilakukan dengan menggunakan operator +.
+
+```c++
+int a = 27;
+int b = 3;
+int result = a + b;
+
+// output : 30
+```
+
+### Pengurangan
+
+PEngurangan dilakukan dengan menggunakan operator -.
+
+```c++
+int a = 27;
+int b = 3;
+int result = a - b;
+
+// output : 24
+```
+
+### Perkalian
+
+Perkalian dilakukan dengan menggunakan operator *.
+
+```c++
+int a = 27;
+int b = 3;
+int result = a * b;
+
+// output : 81
+```
+
+### Pembagian
+
+Pembagian dilakukan dengan menggunakan operator /.
+
+```c++
+int a = 27;
+int b = 3;
+int result = a / b;
+
+// output : 9
+```
+
+### Modulus
+
+Modulus adalah operator untuk mengetahui sisa hasil bagi suatu bilangan,dalam C++ dapat dilakukan dengan menggunakan operator %.
+
+```c++
+int a = 27;
+int b = 3;
+int result = a % b;
+
+// output : 0 //karena 27 habis dibagi 3
+```
+
+>Mengerjakan matematika itu mudah dan menyenangkan! Berikut adalah beberapa takeaways utama pada bagian ini :
+>
+>Kita dapat menggunakan operator matematika dasar untuk melakukan perhitungan dengan nilai dan variabel.
+>
+> - `+` adalah penjumlahan
+> - `-` adalah pengurangan
+> - `*` adalah perkalian
+> - `/` adalah pembagian
+> - `%` menemukan sisa pembagian.
+> - Membagi bilangan bulat menghasilkan bilangan bulat.
 {{< /step >}}
 
-{{< step label="" duration="3:00" >}}
+{{< step label="Variabel (Lanjutan)" duration="3:00" >}}
 
+## Gaya Penulisan Variabel
+
+### 1. Gaya penulisan standar
+
+```c++
+//tanpa pemberian nilai langsung
+int a;
+int b;
+string c;
+
+//dengan pemberian nilai langsung 
+int x=8; 
+int y=2;
+string z= "Hallo, ";
+```
+
+### 2. Dipisahkan Koma
+
+Kita dapat mendeklarasikan variabel dengan tipe yang sama dalam satu baris, dipisahkan dengan koma .
+
+Misalnya :
+
+```c++
+//tanpa pemberian nilai
+int a,b,c;
+
+//dengan pemberian nilai
+int x=8, y=2,z=2;
+```
+
+Ini membuat kode lebih pendek dan juga lebih mudah dibaca.
+
+### 3. Auto
+
+Kata kunci praktis lainnya adalah auto.
+
+Kata kunci auto memungkinkan Kita untuk mengatur jenis variabel berdasarkan nilainya.
+contoh :
+
+```c++
+auto x = 4;
+auto y = 3.37; 
+auto z = "hello"; 
+```
+
+>Saat menggunakan kata kunci auto, variabel harus diberi nilai selama deklarasi, jika tidak, maka program akan terjadi kesalahan.
+
+## Penamaan Variabel
+
+Berikut adalah beberapa aturan penamaan variabel:
+
+- Program C++ bersifat case-sensitive yaitu membedakan huruf besar dan kecil
+- Semua nama variabel harus dimulai dengan huruf abjad atau garis bawah ( `_` ).
+- Setelah huruf awal, nama variabel dapat berisi huruf tambahan, serta angka.
+- Spasi kosong atau karakter khusus tidak diperbolehkan dalam nama variabel.
+
+>Ada dua konvensi penamaan yang populer:
+>
+> - Pascal case : Huruf pertama dalam identifier dan huruf pertama dari setiap kata gabungan berikutnya dikapitalisasi. Misalnya:BackColor
+>
+> - Huruf unta : Huruf pertama dari pengidentifikasi adalah huruf kecil dan huruf pertama dari setiap kata gabungan berikutnya adalah huruf kapital. Misalnya:backColor
 {{< /step >}}
 
 {{< step label="" duration="3:00" >}}
